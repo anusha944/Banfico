@@ -1,0 +1,10 @@
+generic\LoggerHelper.class
+pom\Dashboard_Page.class
+scripts\Login_Test.class
+pom\Login_Page.class
+generic\Automation_Constants.class
+generic\Excel.class
+pom\Home_Page.class
+generic\Base_Page.class
+generic\Base_Test.class
+generic\RandomDataGenerator.class
