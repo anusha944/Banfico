@@ -267,3 +267,86 @@
 14:55:04.484 INFO  Home_Page -Login link is present
 14:55:10.235 INFO  Login_Page -UsernameOrEmail text box is present
 14:55:10.307 INFO  Login_Page -password text box is present
+15:33:55.507 INFO  Login_Test -*********started test clicklogin_Test*********
+15:33:55.574 INFO  Home_Page -Login link is present
+15:33:57.206 INFO  Login_Page -UsernameOrEmail text box is present
+15:33:57.249 INFO  Login_Page -password text box is present
+15:33:57.249 INFO  Login_Test -*********Successfully landed on login page***************
+15:34:05.658 INFO  Login_Test -*********started test loginWithInvalidUserNameInvalidPassword_Test*********
+15:34:05.697 INFO  Home_Page -Login link is present
+15:34:11.195 INFO  Login_Page -UsernameOrEmail text box is present
+15:34:11.226 INFO  Login_Page -password text box is present
+15:34:16.202 INFO  Login_Test -*********Successfully validated the invalid login scenario with invalid username and invalid password*****
+15:34:24.784 INFO  Login_Test -*********started test loginWithInvalidUserNameValidPassword_Test*********
+15:34:42.620 INFO  Login_Test -*********started test loginWithValidUserNameInvalidPassword_Test*********
+15:34:43.224 INFO  Home_Page -Login link is present
+15:34:48.049 INFO  Login_Page -UsernameOrEmail text box is present
+15:34:48.079 INFO  Login_Page -password text box is present
+15:34:53.113 INFO  Login_Test -**********Successfully validated the invalid login scenario with valid username and invalid password*******
+15:35:02.769 INFO  Login_Test -*********started test successfulApplicationCreation_Test*********
+15:35:02.804 INFO  Home_Page -Login link is present
+15:35:09.366 INFO  Login_Page -UsernameOrEmail text box is present
+15:35:09.397 INFO  Login_Page -password text box is present
+15:35:32.563 INFO  Login_Test -*********started test SuccessfullLogin_Test*********
+15:35:33.174 INFO  Home_Page -Login link is present
+15:35:33.828 INFO  Login_Page -UsernameOrEmail text box is present
+15:35:33.863 INFO  Login_Page -password text box is present
+15:35:34.841 INFO  Login_Test -**********Successfully logged in***************
+15:35:42.177 INFO  Login_Test -*********started test unsuccessfulApplicationCreation_Test*********
+15:35:42.214 INFO  Home_Page -Login link is present
+15:35:42.827 INFO  Login_Page -UsernameOrEmail text box is present
+15:35:42.859 INFO  Login_Page -password text box is present
+15:41:33.017 INFO  Login_Test -*********started test unsuccessfulApplicationCreation_Test*********
+15:41:33.081 INFO  Home_Page -Login link is present
+15:41:33.684 INFO  Login_Page -UsernameOrEmail text box is present
+15:41:33.715 INFO  Login_Page -password text box is present
+15:41:37.533 INFO  Dashboard_Page -dropdown option is present
+15:41:37.940 INFO  Login_Test -**********error message validated for unsuccessful application creation***********
+15:41:59.037 INFO  Login_Test -*********started test successfulApplicationCreation_Test*********
+15:41:59.097 INFO  Home_Page -Login link is present
+15:41:59.678 INFO  Login_Page -UsernameOrEmail text box is present
+15:41:59.722 INFO  Login_Page -password text box is present
+15:42:03.469 INFO  Dashboard_Page -dropdown option is present
+15:42:03.675 INFO  Login_Test -*******Successfully created application***********
+15:42:21.572 INFO  Login_Test -*********started test loginWithInvalidUserNameInvalidPassword_Test*********
+15:42:21.652 INFO  Home_Page -Login link is present
+15:42:22.259 INFO  Login_Page -UsernameOrEmail text box is present
+15:42:22.302 INFO  Login_Page -password text box is present
+15:42:23.564 INFO  Login_Test -*********Successfully validated the invalid login scenario with invalid username and invalid password*****
+15:43:19.318 INFO  Login_Test -*********started test clicklogin_Test*********
+15:43:19.401 INFO  Home_Page -Login link is present
+15:43:20.003 INFO  Login_Page -UsernameOrEmail text box is present
+15:43:20.034 INFO  Login_Page -password text box is present
+15:43:20.034 INFO  Login_Test -*********Successfully landed on login page***************
+15:43:27.351 INFO  Login_Test -*********started test loginWithInvalidUserNameInvalidPassword_Test*********
+15:43:27.388 INFO  Home_Page -Login link is present
+15:43:28.034 INFO  Login_Page -UsernameOrEmail text box is present
+15:43:28.076 INFO  Login_Page -password text box is present
+15:43:29.268 INFO  Login_Test -*********Successfully validated the invalid login scenario with invalid username and invalid password*****
+15:43:37.016 INFO  Login_Test -*********started test loginWithInvalidUserNameValidPassword_Test*********
+15:43:37.052 INFO  Home_Page -Login link is present
+15:43:37.650 INFO  Login_Page -UsernameOrEmail text box is present
+15:43:37.682 INFO  Login_Page -password text box is present
+15:43:38.404 INFO  Login_Test -********Successfully validated the invalid login scenario with invalid username and valid password********
+15:43:45.697 INFO  Login_Test -*********started test loginWithValidUserNameInvalidPassword_Test*********
+15:43:45.748 INFO  Home_Page -Login link is present
+15:43:46.365 INFO  Login_Page -UsernameOrEmail text box is present
+15:43:46.408 INFO  Login_Page -password text box is present
+15:43:47.033 INFO  Login_Test -**********Successfully validated the invalid login scenario with valid username and invalid password*******
+15:43:54.464 INFO  Login_Test -*********started test successfulApplicationCreation_Test*********
+15:43:54.501 INFO  Home_Page -Login link is present
+15:43:55.115 INFO  Login_Page -UsernameOrEmail text box is present
+15:43:55.145 INFO  Login_Page -password text box is present
+15:43:58.313 INFO  Dashboard_Page -dropdown option is present
+15:43:58.480 INFO  Login_Test -*******Successfully created application***********
+15:44:06.128 INFO  Login_Test -*********started test SuccessfullLogin_Test*********
+15:44:06.200 INFO  Home_Page -Login link is present
+15:44:06.832 INFO  Login_Page -UsernameOrEmail text box is present
+15:44:06.864 INFO  Login_Page -password text box is present
+15:44:07.925 INFO  Login_Test -**********Successfully logged in***************
+15:44:15.244 INFO  Login_Test -*********started test unsuccessfulApplicationCreation_Test*********
+15:44:15.299 INFO  Home_Page -Login link is present
+15:44:15.978 INFO  Login_Page -UsernameOrEmail text box is present
+15:44:16.009 INFO  Login_Page -password text box is present
+15:44:20.279 INFO  Dashboard_Page -dropdown option is present
+15:44:20.739 INFO  Login_Test -**********error message validated for unsuccessful application creation***********

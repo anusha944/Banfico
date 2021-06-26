@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13315" started-at="2021-06-26T09:22:05Z" finished-at="2021-06-26T09:22:18Z">
+  <suite name="Default suite" duration-ms="9879" started-at="2021-06-26T10:12:14Z" finished-at="2021-06-26T10:12:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13315" started-at="2021-06-26T09:22:05Z" finished-at="2021-06-26T09:22:18Z">
+    <test name="Default test" duration-ms="9879" started-at="2021-06-26T10:12:14Z" finished-at="2021-06-26T10:12:24Z">
       <class name="scripts.Login_Test">
-        <test-method status="PASS" signature="open_Application()[pri:0, instance:scripts.Login_Test@4ef37659]" name="open_Application" is-config="true" duration-ms="9098" started-at="2021-06-26T09:22:05Z" finished-at="2021-06-26T09:22:14Z">
+        <test-method status="PASS" signature="open_Application()[pri:0, instance:scripts.Login_Test@4ef37659]" name="open_Application" is-config="true" duration-ms="7174" started-at="2021-06-26T10:12:14Z" finished-at="2021-06-26T10:12:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_Application -->
-        <test-method status="PASS" signature="successfullLogin_Test()[pri:0, instance:scripts.Login_Test@4ef37659]" name="successfullLogin_Test" duration-ms="3505" started-at="2021-06-26T09:22:14Z" finished-at="2021-06-26T09:22:18Z">
+        <test-method status="PASS" signature="loginWithInvalidUserNameInvalidPassword_Test()[pri:0, instance:scripts.Login_Test@4ef37659]" name="loginWithInvalidUserNameInvalidPassword_Test" duration-ms="2000" started-at="2021-06-26T10:12:21Z" finished-at="2021-06-26T10:12:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- successfullLogin_Test -->
-        <test-method status="PASS" signature="close_Application()[pri:0, instance:scripts.Login_Test@4ef37659]" name="close_Application" is-config="true" duration-ms="695" started-at="2021-06-26T09:22:18Z" finished-at="2021-06-26T09:22:18Z">
+        </test-method> <!-- loginWithInvalidUserNameInvalidPassword_Test -->
+        <test-method status="PASS" signature="close_Application()[pri:0, instance:scripts.Login_Test@4ef37659]" name="close_Application" is-config="true" duration-ms="687" started-at="2021-06-26T10:12:23Z" finished-at="2021-06-26T10:12:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_Application -->

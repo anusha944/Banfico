@@ -9,76 +9,16 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">3</td><td class="num">114,140</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">69,492</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">scripts.Login_Test</td><td><a href="#m0">successfulApplicationCreation_Test</a></td><td rowspan="1">1624699460390</td><td rowspan="1">16829</td></tr><tr class="failedeven"><td><a href="#m1">successfullLogin_Test</a></td><td rowspan="1">1624699485116</td><td rowspan="1">10563</td></tr><tr class="failedeven"><td><a href="#m2">unsuccessfulApplicationCreation_Test</a></td><td rowspan="1">1624699504420</td><td rowspan="1">21481</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">scripts.Login_Test</td><td><a href="#m3">clicklogin_Test</a></td><td rowspan="1">1624699420316</td><td rowspan="1">1844</td></tr><tr class="passedeven"><td><a href="#m4">loginWithInvalidUserNameInvalidPassword_Test</a></td><td rowspan="1">1624699430772</td><td rowspan="1">2307</td></tr><tr class="passedeven"><td><a href="#m5">loginWithInvalidUserNameValidPassword_Test</a></td><td rowspan="1">1624699440877</td><td rowspan="1">1479</td></tr><tr class="passedeven"><td><a href="#m6">loginWithValidUserNameInvalidPassword_Test</a></td><td rowspan="1">1624699450273</td><td rowspan="1">1317</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">scripts.Login_Test</td><td><a href="#m0">clicklogin_Test</a></td><td rowspan="1">1624702399318</td><td rowspan="1">716</td></tr><tr class="passedeven"><td><a href="#m1">loginWithInvalidUserNameInvalidPassword_Test</a></td><td rowspan="1">1624702407351</td><td rowspan="1">1917</td></tr><tr class="passedeven"><td><a href="#m2">loginWithInvalidUserNameValidPassword_Test</a></td><td rowspan="1">1624702417016</td><td rowspan="1">1389</td></tr><tr class="passedeven"><td><a href="#m3">loginWithValidUserNameInvalidPassword_Test</a></td><td rowspan="1">1624702425697</td><td rowspan="1">1336</td></tr><tr class="passedeven"><td><a href="#m4">successfulApplicationCreation_Test</a></td><td rowspan="1">1624702434464</td><td rowspan="1">4016</td></tr><tr class="passedeven"><td><a href="#m5">successfullLogin_Test</a></td><td rowspan="1">1624702446128</td><td rowspan="1">1798</td></tr><tr class="passedeven"><td><a href="#m6">unsuccessfulApplicationCreation_Test</a></td><td rowspan="1">1624702455244</td><td rowspan="1">5495</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">scripts.Login_Test#successfulApplicationCreation_Test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(.,&apos;Create&apos;)]&quot;}
-  (Session info: chrome=91.0.4472.124)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;ZMBLRANUSHA&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\anusha\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 91.0.4472.124, webStorageEnabled: true}
-Session ID: b9e34bfa445f9d7d9b97a021b5da3c13
-*** Element info: {Using=xpath, value=//span[contains(.,&apos;Create&apos;)]}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at pom.Dashboard_Page.clickCreate(Dashboard_Page.java:49)
-	at scripts.Login_Test.successfulApplicationCreation_Test(Login_Test.java:145)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">scripts.Login_Test#successfullLogin_Test</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">element not present</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
-	at generic.Base_Page.verifyElementIsPresent(Base_Page.java:49)
-	at pom.Home_Page.verifyLoginIsPresent(Home_Page.java:25)
-	at scripts.Login_Test.successfullLogin_Test(Login_Test.java:43)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">scripts.Login_Test#unsuccessfulApplicationCreation_Test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(.,&apos;Create&apos;)]&quot;}
-  (Session info: chrome=91.0.4472.124)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;ZMBLRANUSHA&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\anusha\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 91.0.4472.124, webStorageEnabled: true}
-Session ID: f95407dc9f467eae711909cdbb343bc0
-*** Element info: {Using=xpath, value=//span[contains(.,&apos;Create&apos;)]}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at pom.Dashboard_Page.clickCreate(Dashboard_Page.java:49)
-	at scripts.Login_Test.unsuccessfulApplicationCreation_Test(Login_Test.java:179)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">scripts.Login_Test#clicklogin_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">scripts.Login_Test#loginWithInvalidUserNameInvalidPassword_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">scripts.Login_Test#loginWithInvalidUserNameValidPassword_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">scripts.Login_Test#loginWithValidUserNameInvalidPassword_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">scripts.Login_Test#clicklogin_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">scripts.Login_Test#loginWithInvalidUserNameInvalidPassword_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">scripts.Login_Test#loginWithInvalidUserNameValidPassword_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">scripts.Login_Test#loginWithValidUserNameInvalidPassword_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">scripts.Login_Test#successfulApplicationCreation_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">scripts.Login_Test#successfullLogin_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">scripts.Login_Test#unsuccessfulApplicationCreation_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

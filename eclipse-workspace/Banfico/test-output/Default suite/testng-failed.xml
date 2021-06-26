@@ -6,6 +6,8 @@
       <class name="scripts.Login_Test">
         <methods>
           <include name="open_Application"/>
+          <include name="unsuccessfulApplicationCreation_Test"/>
+          <include name="loginWithInvalidUserNameValidPassword_Test"/>
           <include name="successfulApplicationCreation_Test"/>
           <include name="close_Application"/>
         </methods>
